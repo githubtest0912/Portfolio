@@ -1,6 +1,7 @@
 import React from "react";
 import Typical from "react-typical";
 // npm i react-typical --force (to create a animation text)
+import './Profile.css'
 
 const Profile = () => {
   return (
@@ -29,7 +30,7 @@ const Profile = () => {
           </div>
           <div className="profile-details-name">
             <span className="primary-text">
-              Hello, I'M <span className="high-lighted-text">Selvarani</span>
+              Hello, I'M <span className="highlighted-text">Selvarani</span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -62,7 +63,7 @@ const Profile = () => {
 
             {/* // to download the resume, copy that pdf file inside the public folder */}
             <a href="ehizcv.pdf" download="myResume.pdf">
-              {" "}
+              
               {/*// can give any name in download='Resume.pdf */}
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
