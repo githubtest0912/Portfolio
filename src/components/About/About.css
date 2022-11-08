@@ -1,0 +1,14 @@
+.pro {
+  position: absolute;
+  padding: 5px;
+  color: white;
+}
+
+.progress {
+ 
+  transition: 0.5s ease;
+}
+
+.progress:hover {
+  transform: scale(1.1);
+}

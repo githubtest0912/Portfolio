@@ -1,0 +1,17 @@
+.card img{
+   width:100px;
+   height:100px;
+   background-color: white;
+
+}
+
+.card {
+    transition: 0.5s ease;
+
+}
+.card:hover {
+    background-color: #0D6EFD;
+    color:white;
+    box-shadow: 5px 5px 10px #2379f8;
+    cursor:pointer;
+}
